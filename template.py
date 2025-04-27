@@ -3,7 +3,8 @@ from pathlib import Path
 import logging 
 logging.basicConfig(level=logging.INFO, 
                     format='[%(asctime)s]: %(message)s:',
-                    filemode = 'w',)
+                    filemode = 'w',
+                    filename = 'model.log',)
 
 project_name = "House_prices_Prediction_Model"
 
